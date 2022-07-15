@@ -1,0 +1,42 @@
+{
+  "name": "eslint-config",
+  "version": "0.0.1",
+  "description": "Common ESLint config used in MVL FE projects.",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "husky install",
+    "lint-staged": "lint-staged",
+    "lint:fix": "./node_modules/.bin/eslint --fix"
+  },
+  "lint-staged": {
+    "**/*.{js,ts,tsx}": [
+      "yarn run lint:fix"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mvlchain/eslint-config.git"
+  },
+  "keywords": [],
+  "author": "MVL",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mvlchain/eslint-config/issues"
+  },
+  "homepage": "https://github.com/mvlchain/eslint-config#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.30.6",
+    "@typescript-eslint/parser": "^5.30.6",
+    "eslint": "^8.19.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
+    "prettier": "^2.7.1",
+    "typescript": "^4.7.4"
+  },
+  "peerDependencies": {
+    "eslint": "^7.0.0"
+  }
+}
