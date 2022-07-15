@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config",
+  "name": "@mvlchain/eslint-config",
   "version": "0.0.1",
   "description": "Common ESLint config used in MVL FE projects.",
   "main": "index.js",
