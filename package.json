@@ -17,7 +17,9 @@
     "type": "git",
     "url": "git+https://github.com/mvlchain/eslint-config.git"
   },
-  "keywords": [],
+  "keywords": [
+    "eslint"
+  ],
   "author": "MVL",
   "license": "MIT",
   "bugs": {
@@ -25,6 +27,7 @@
   },
   "homepage": "https://github.com/mvlchain/eslint-config#readme",
   "devDependencies": {
+    "@mvlchain/prettier-config": "^1.0.0",
     "@typescript-eslint/eslint-plugin": "^5.30.6",
     "@typescript-eslint/parser": "^5.30.6",
     "eslint": "^8.19.0",
