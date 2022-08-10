@@ -22,9 +22,13 @@ $ yarn add -D @mvlchain/eslint-config
 
 ```js
 module.exports = {
-  "extends": "@mvlchain/eslint-config",
-}
+  extends: ['@mvlchain/eslint-config'], // or @mvlchain/eslint-config/react
+};
 ```
+
+> If you use `@mvlchain/eslint-config/react`, you don't need to use `@mvlchain/eslint-config`.
+
+<br />
 
 ### package.json
 
@@ -33,7 +37,7 @@ module.exports = {
 ```json
 {
   "eslintConfig": {
-    "extends": "@ionic/eslint-config/recommended"
+    "extends": "@mvlchain/eslint-config" // or @mvlchain/eslint-config/react
   }
 }
 ```
@@ -58,7 +62,7 @@ $ yarn add -D husky lint-staged
     // ...
   },
   "lint-staged": {
-    "**/*.{js,ts,tsx}": [
+    "**/*.{ts,tsx}": [
       "yarn run lint:fix"
     ]
   }
