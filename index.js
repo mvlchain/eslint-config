@@ -46,11 +46,17 @@ module.exports = {
     'no-useless-backreference': 'off',
     'no-useless-catch': 'off',
     'valid-typeof': 'off',
+    'no-case-declarations': 'off',
     // custom setting
     'no-unused-vars': 'off',
     '@typescript-eslint/no-unused-vars': ['warn', { args: 'none', argsIgnorePattern: '_|req|res|next' }],
     '@typescript-eslint/ban-ts-ignore': 'off',
     '@typescript-eslint/tsx-props-no-spreading': 'off',
+    '@typescript-eslint/no-inferrable-types': 'off',
+    '@typescript-eslint/ban-ts-comment': 'off',
+    '@typescript-eslint/no-empty-interface': 'off',
+    '@typescript-eslint/ban-types': 'off',
+    '@typescript-eslint/no-empty-function': 'off',
     // override configuration set by extending "import/*"
     'import/order': [
       'warn',
@@ -70,6 +76,8 @@ module.exports = {
     ],
     'import/no-unresolved': 'off',
     'import/namespace': 'off',
+    'import/no-named-as-default': 'off',
     'import/no-named-as-default-member': 'off',
+    'import/named': 'off',
   },
 };
