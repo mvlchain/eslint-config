@@ -34,7 +34,7 @@ module.exports = {
 
 1. Add the following to `package.json`
 
-```json
+```js
 {
   "eslintConfig": {
     "extends": "@mvlchain/eslint-config" // or @mvlchain/eslint-config/react
