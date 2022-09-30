@@ -68,6 +68,11 @@ module.exports = {
             group: 'external',
             position: 'before',
           },
+          {
+            pattern: '@@*/**',
+            group: 'internal',
+            patternOptions: { partial: true, nocomment: true },
+          },
         ],
         pathGroupsExcludedImportTypes: ['react', 'react-native'],
         alphabetize: { order: 'asc' },
