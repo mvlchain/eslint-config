@@ -12,5 +12,6 @@ module.exports = {
     'react/no-unescaped-entities': 'off',
     'react/prop-types': 'off',
     'react-hooks/exhaustive-deps': 'off',
+    'react/display-name': 'warn',
   },
 };
