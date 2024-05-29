@@ -1,6 +1,6 @@
 {
   "name": "@mvlchain/eslint-config",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Common ESLint config used in MVL FE projects.",
   "main": "index.js",
   "scripts": {
@@ -16,6 +16,9 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mvlchain/eslint-config.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   },
   "keywords": [
     "eslint"
